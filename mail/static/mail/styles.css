@@ -1,3 +1,43 @@
 textarea {
     min-height: 400px;
 }
+
+.email-item {
+    transition: background-color 0.2s;
+}
+
+.email-item:hover {
+    background-color: #e9ecef !important;
+}
+
+#email-detail-view {
+    margin-top: 20px;
+}
+
+.email-content {
+    background: white;
+    border: 1px solid #dee2e6;
+    border-radius: 0.25rem;
+    padding: 20px;
+}
+
+.email-header {
+    border-bottom: 1px solid #dee2e6;
+    padding-bottom: 15px;
+    margin-bottom: 20px;
+}
+
+.email-meta {
+    color: #6c757d;
+    font-size: 0.9em;
+    line-height: 1.5;
+}
+
+.email-actions {
+    margin: 15px 0;
+}
+
+.email-body {
+    white-space: pre-wrap;
+    line-height: 1.6;
+}
